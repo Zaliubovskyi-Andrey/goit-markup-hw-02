@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+    background-color: #FFFFFF;
 }
 
 /* Header section   */
@@ -37,8 +38,6 @@ body {
 .logo-studio-footer {
     color: #F4F4FD;
 }
-
-.header-list {}
 
 .header-link {
     font-style: normal;
