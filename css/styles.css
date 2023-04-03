@@ -163,7 +163,7 @@ body {
 
 /* Section 2 */
 .activity-title {
-    ffont-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
