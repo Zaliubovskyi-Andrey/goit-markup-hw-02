@@ -13,6 +13,14 @@ body {
     text-decoration: none;
 }
 
+.link:hover {
+    color: #404bbf
+}
+
+.link:focus {
+    color: #404bbf
+}
+
 .list {
     list-style: none;
 }
@@ -46,7 +54,7 @@ body {
 
 .logo-web {
     color: #4D5AE5;
-    ;
+
 }
 
 .logo-studio {
@@ -114,7 +122,9 @@ body {
 .adventage-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
