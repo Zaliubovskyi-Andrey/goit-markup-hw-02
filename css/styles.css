@@ -99,19 +99,29 @@ body {
 .main-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #404BBF
+}
+
+.button:focus {
+    background-color: #404BBF
 }
 
 .pointer {
