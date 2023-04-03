@@ -157,9 +157,14 @@ body {
 
 /* Section 2 */
 .activity-title {
+    ffont-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -169,23 +174,34 @@ body {
 }
 
 .team {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
+}
+
+.team-list-background {
+    background-color: #FFFFFF
 }
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .team-position {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
